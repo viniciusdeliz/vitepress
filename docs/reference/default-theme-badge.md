@@ -1,10 +1,10 @@
-# Badge
+# Emblema (Badge)
 
-The badge lets you add status to your headers. For example, it could be useful to specify the section's type, or supported version.
+O emblema permite adicionar status aos seus cabeçalhos. Por exemplo, pode ser útil especificar o tipo da seção ou a versão suportada.
 
-## Usage
+## Uso
 
-You may use the `Badge` component which is globally available.
+Você pode usar o componente `Badge` que está disponível globalmente.
 
 ```html
 ### Title <Badge type="info" text="default" />
@@ -13,16 +13,16 @@ You may use the `Badge` component which is globally available.
 ### Title <Badge type="danger" text="caution" />
 ```
 
-Code above renders like:
+O código acima é renderizado como:
 
 ### Title <Badge type="info" text="default" />
 ### Title <Badge type="tip" text="^1.9.0" />
 ### Title <Badge type="warning" text="beta" />
 ### Title <Badge type="danger" text="caution" />
 
-## Custom Children
+## Filiação Personalizada
 
-`<Badge>` accept `children`, which will be displayed in the badge.
+`<Badge>` aceita `children` (filhos), que serão exibidas no emblema.
 
 ```html
 ### Title <Badge type="info">custom element</Badge>
@@ -30,9 +30,9 @@ Code above renders like:
 
 ### Title <Badge type="info">custom element</Badge>
 
-## Customize Type Color
+## Personalize o Tipo de Cor
 
-You can customize the style of badges by overriding css variables. The following are the default values:
+Você pode personalizar o estilo dos emblemas substituindo variáveis ​​CSS. A seguir estão os valores padrão:
 
 ```css
 :root {
@@ -56,7 +56,7 @@ You can customize the style of badges by overriding css variables. The following
 
 ## `<Badge>`
 
-`<Badge>` component accepts following props:
+O componente `<Badge>` aceita as seguintes propriedades:
 
 ```ts
 interface Props {
